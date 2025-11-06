@@ -117,7 +117,7 @@ export default function Home() {
             <p className="mt-4 text-lg text-gray-600">{developer.intro}</p>
 
             <div className="mt-6 flex gap-4">
-              <a href="https://digimetashop.com/" className="inline-flex items-center px-5 py-3 bg-blue-600 text-white rounded-lg shadow">
+              <a href="https://company-profile-digimetashop.vercel.app/" className="inline-flex items-center px-5 py-3 bg-blue-600 text-white rounded-lg shadow">
                 View Portfolio
               </a>
               {/* <a href="https://wa.me/6287754786544" className="inline-flex items-center px-5 py-3 border rounded-lg">
