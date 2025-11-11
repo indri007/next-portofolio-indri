@@ -19,48 +19,48 @@ export default function Home() {
 
   const portfolio = [
     {
-      title: 'E-commerce Platform for XYZ Retail',
-      tech: ['React', 'Node.js', 'MongoDB', 'AWS'],
+      title: 'Digimetashop',
+      tech: ['React', 'Node.js', 'Next.js', 'backendless'],
       situation:
-        'XYZ Retail needed a scalable e-commerce platform to expand online sales and automate inventory.',
+        'Sebuah startup jual e-book online ingin memperluas jangkauan digitalnya dengan membangun platform e-commerce modern yang cepat, responsif, dan mudah dikelola.',
       task:
-        'Build front-end and back-end, integrate payments, and optimize for performance and mobile.',
+        'Mengembangkan aplikasi web lengkap yang mencakup sistem katalog produk, manajemen stok otomatis, serta integrasi pembayaran digital.',
       action:
-        'Designed responsive UI with React, built RESTful APIs with Node.js, integrated AWS CDN and set up CI/CD.',
+        'Merancang antarmuka pengguna responsif dengan React dan Next.js, membangun API menggunakan Node.js, serta memanfaatkan Backendless untuk mempercepat pengelolaan database dan autentikasi.',
       result:
-        'Delivered in 4 months — 35% increase in online sales in 3 months and reduced manual inventory tasks.'
+        'Platform berhasil diluncurkan dalam waktu 4 bulan, meningkatkan penjualan online hingga 35% dalam 3 bulan pertama, serta memangkas pekerjaan manual manajemen stok secara signifikan.'
     },
     {
-      title: 'Dashboard Analytics for Acme Corp',
-      tech: ['Next.js', 'D3.js', 'PostgreSQL'],
+      title: 'Digital Marketing',
+      tech: ['Pinterest', 'Instagram', 'Facebook', 'Youtube'],
       situation:
-        'Acme Corp needed real-time insights to monitor sales and operations across regions.',
-      task: 'Create a performant analytics dashboard with role-based access.',
+        'Sebuah perusahaan digital marketing membutuhkan sistem terpadu untuk memantau performa kampanye lintas platform sosial media secara real-time.',
+      task: 'Mmebuta konten yang mampu menjangkau ribuan pengguna dan meningkatkan penjualan produk perusahaan',
       action:
-        'Implemented Next.js SSR pages for performance, optimized queries, and created interactive charts.',
+        'Mengintegrasikan API dari Pinterest, Instagram, Facebook, dan YouTube, lalu memvisualisasikan data menggunakan dashboard interaktif berbasis Next.js. Sistem juga dioptimalkan agar mampu menampilkan data terbaru dengan efisien dan mendukung autentikasi pengguna dengan peran berbeda.',
       result:
-        'Reduced time-to-insight by 60% and improved decision-making speed.'
+        'Waktu analisis data turun hingga 60% lebih cepat, dan tim marketing mampu mengambil keputusan kampanye secara lebih akurat dan real-time.'
     }
   ]
 
   const experience = [
     {
-      role: 'Regional Manager (DevOps & Infra) — ISP Company',
-      company: 'ISP Corp',
-      period: '2020 - 2024',
+      role: 'CEO of Digimetashop',
+      company: 'Digimetashope',
+      period: '2020-curent',
       responsibilities: [
-        'Manage regional deployment and monitoring',
-        'Coordinate cross-team releases and incident response',
-        'Mentor junior engineers'
+        'Memasarkan produk digital ke pasar',
+        'Koordinasi rilis lintas tim dan respons insiden',
+        'Membimbing insinyur junior'
       ]
     },
     {
       role: 'Full-Stack Developer (Freelance)',
       company: 'Self-employed',
-      period: '2018 - 2020',
+      period: '2021-curent',
       responsibilities: [
-        'Delivered websites & web apps for SMEs',
-        'Handled end-to-end project lifecycle'
+        'Membuat website yang responsif dan user-friendly',
+        'Mengelola siklus hidup proyek dari awal hingga akhir'
       ]
     }
   ]
